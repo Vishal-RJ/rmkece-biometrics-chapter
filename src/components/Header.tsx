@@ -13,7 +13,7 @@ export const Header = () => {
               className="h-12 w-auto"
             />
             <div className="flex flex-col">
-              <p className="text-sm text-muted-foreground">R.M.K. Engineering College Chapter</p>
+              <p className="text-sm text-primary font-semibold">R.M.K. Engineering College Chapter</p>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-6">

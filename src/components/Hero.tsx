@@ -21,10 +21,10 @@ export const Hero = () => {
                 className="h-24 w-auto"
               />
             </div>
-            <h2 className="text-xl md:text-2xl text-primary-foreground/80 mb-6">
+            <h2 className="text-xl md:text-2xl text-white mb-6">
               R.M.K. Engineering College Chapter
             </h2>
-            <p className="text-lg text-primary-foreground/70 max-w-2xl mx-auto">
+            <p className="text-lg text-white/90 max-w-2xl mx-auto">
               Advancing the frontiers of biometric recognition technology through research, 
               innovation, and academic excellence.
             </p>
