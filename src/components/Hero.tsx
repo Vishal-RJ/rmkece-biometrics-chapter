@@ -21,12 +21,12 @@ export const Hero = () => {
                 className="h-24 w-auto"
               />
             </div>
-            <h2 className="text-xl md:text-2xl text-white mb-6">
-              R.M.K. Engineering College Chapter
+            <h2 className="text-2xl md:text-4xl font-playfair font-semibold text-white mb-8 leading-tight">
+              <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">R.M.K.</span> Engineering College <span className="italic text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.7)]">Chapter</span>
             </h2>
-            <p className="text-lg text-white/90 max-w-2xl mx-auto">
-              Advancing the frontiers of biometric recognition technology through research, 
-              innovation, and academic excellence.
+            <p className="text-xl md:text-2xl font-poppins text-white/95 max-w-3xl mx-auto leading-relaxed">
+              Advancing the <span className="italic font-medium text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.6)]">frontiers</span> of biometric recognition technology through <span className="italic font-medium">research</span>, 
+              <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)] italic font-medium">innovation</span>, and academic <span className="italic font-medium">excellence</span>.
             </p>
           </GlassCard>
         </div>

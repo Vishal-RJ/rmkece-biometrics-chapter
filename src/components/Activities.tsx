@@ -30,8 +30,8 @@ export const Activities = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto animate-slide-up">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Our Activities
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-4 drop-shadow-[0_0_10px_rgba(var(--primary),0.3)]">
+              Our <span className="italic">Activities</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">

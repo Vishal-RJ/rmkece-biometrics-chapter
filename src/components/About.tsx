@@ -8,8 +8,8 @@ export const About = () => {
         <div className="max-w-4xl mx-auto animate-slide-up">
           <GlassCard className="p-8 md:p-12">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                About Our Chapter
+              <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-4 drop-shadow-[0_0_10px_rgba(var(--primary),0.3)]">
+                About Our <span className="italic">Chapter</span>
               </h2>
               <div className="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
             </div>

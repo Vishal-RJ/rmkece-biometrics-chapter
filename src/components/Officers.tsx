@@ -30,8 +30,8 @@ export const Officers = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto animate-slide-up">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Chapter Leadership
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary mb-4 drop-shadow-[0_0_10px_rgba(var(--primary),0.3)]">
+              Chapter <span className="italic">Leadership</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
           </div>
