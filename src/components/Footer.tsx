@@ -7,13 +7,12 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <GlassCard className="p-8">
           <div className="text-center">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">IEEE</span>
-              </div>
-              <h3 className="text-xl font-bold text-primary">
-                IEEE Biometrics Council
-              </h3>
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <img 
+                src="/lovable-uploads/0ad4fe59-43f9-466c-8696-8a027094ca0e.png" 
+                alt="IEEE Biometrics Council Logo"
+                className="h-16 w-auto"
+              />
             </div>
             
             <p className="text-muted-foreground mb-6">
@@ -25,10 +24,6 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground">
               Advancing biometric recognition technology through research and innovation
             </p>
-            
-            <div className="mt-6 text-xs text-muted-foreground">
-              © 2024 IEEE Biometrics Council - R.M.K. Engineering College Chapter
-            </div>
           </div>
         </GlassCard>
       </div>

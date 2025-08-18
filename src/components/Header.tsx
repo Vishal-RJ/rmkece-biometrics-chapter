@@ -7,8 +7,12 @@ export const Header = () => {
       <GlassCard className="mx-auto max-w-6xl">
         <nav className="flex items-center justify-between p-4">
           <div className="flex items-center gap-4">
+            <img 
+              src="/lovable-uploads/0ad4fe59-43f9-466c-8696-8a027094ca0e.png" 
+              alt="IEEE Biometrics Council Logo"
+              className="h-12 w-auto"
+            />
             <div className="flex flex-col">
-              <h1 className="text-lg font-bold text-primary">IEEE Biometrics Council</h1>
               <p className="text-sm text-muted-foreground">R.M.K. Engineering College Chapter</p>
             </div>
           </div>

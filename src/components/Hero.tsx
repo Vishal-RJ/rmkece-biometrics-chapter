@@ -14,12 +14,13 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center animate-fade-in">
           <GlassCard className="inline-block p-8 mb-8">
-            <div className="w-20 h-20 mx-auto mb-4 bg-white rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-primary">IEEE</span>
+            <div className="mb-6 flex justify-center">
+              <img 
+                src="/lovable-uploads/0ad4fe59-43f9-466c-8696-8a027094ca0e.png" 
+                alt="IEEE Biometrics Council Logo"
+                className="h-24 w-auto"
+              />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-4">
-              Biometrics Council
-            </h1>
             <h2 className="text-xl md:text-2xl text-primary-foreground/80 mb-6">
               R.M.K. Engineering College Chapter
             </h2>
