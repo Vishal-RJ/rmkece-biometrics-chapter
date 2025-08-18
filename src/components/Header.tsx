@@ -1,0 +1,24 @@
+import React from 'react';
+import { GlassCard } from './ui/glass-card';
+
+export const Header = () => {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 p-4">
+      <GlassCard className="mx-auto max-w-6xl">
+        <nav className="flex items-center justify-between p-4">
+          <div className="flex items-center gap-4">
+            <div className="flex flex-col">
+              <h1 className="text-lg font-bold text-primary">IEEE Biometrics Council</h1>
+              <p className="text-sm text-muted-foreground">R.M.K. Engineering College Chapter</p>
+            </div>
+          </div>
+          <div className="hidden md:flex items-center gap-6">
+            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
+            <a href="#officers" className="text-sm font-medium hover:text-primary transition-colors">Officers</a>
+            <a href="#activities" className="text-sm font-medium hover:text-primary transition-colors">Activities</a>
+          </div>
+        </nav>
+      </GlassCard>
+    </header>
+  );
+};
