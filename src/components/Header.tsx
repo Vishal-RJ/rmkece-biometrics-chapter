@@ -18,9 +18,9 @@ export const Header = () => {
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
-            <a href="#officers" className="text-sm font-medium hover:text-primary transition-colors">Officers</a>
-            <a href="#activities" className="text-sm font-medium hover:text-primary transition-colors">Activities</a>
+            <a href="#about" className="text-sm font-medium px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">About</a>
+            <a href="#officers" className="text-sm font-medium px-4 py-2 rounded-lg bg-gradient-to-r from-green-500 to-teal-600 text-white shadow-lg hover:shadow-xl hover:from-green-600 hover:to-teal-700 transition-all duration-300 transform hover:scale-105">Officers</a>
+            <a href="#activities" className="text-sm font-medium px-4 py-2 rounded-lg bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg hover:shadow-xl hover:from-orange-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105">Activities</a>
           </div>
           
           <div className="flex items-center gap-4">
