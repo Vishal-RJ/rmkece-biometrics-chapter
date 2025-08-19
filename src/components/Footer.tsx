@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="text-center">
             <div className="flex items-center justify-center gap-4 mb-4">
               <img 
-                src="/lovable-uploads/0ad4fe59-43f9-466c-8696-8a027094ca0e.png" 
+                src="/lovable-uploads/ce145c5c-dc7a-413f-ab3f-c166ac571ae8.png" 
                 alt="IEEE Biometrics Council Logo"
                 className="h-16 w-auto"
               />
