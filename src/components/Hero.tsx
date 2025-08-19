@@ -21,13 +21,26 @@ export const Hero = () => {
                 className="h-24 w-auto"
               />
             </div>
-            <h2 className="text-2xl md:text-4xl font-playfair font-semibold text-white mb-8 leading-tight">
-              <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]">R.M.K.</span> Engineering College <span className="italic text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.7)]">Chapter</span>
-            </h2>
-            <p className="text-xl md:text-2xl font-poppins text-white/95 max-w-3xl mx-auto leading-relaxed">
-              Advancing the <span className="italic font-medium text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.6)]">frontiers</span> of biometric recognition technology through <span className="italic font-medium">research</span>, 
-              <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)] italic font-medium">innovation</span>, and academic <span className="italic font-medium">excellence</span>.
-            </p>
+            <div className="relative">
+              {/* Decorative graphics */}
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary/20 rounded-full blur-sm"></div>
+              <div className="absolute -bottom-2 -right-6 w-8 h-8 bg-primary/30 rounded-full blur-sm"></div>
+              
+              <h2 className="text-2xl md:text-4xl font-playfair font-semibold text-primary mb-8 leading-tight relative z-10">
+                <span className="text-primary drop-shadow-[0_0_15px_rgba(59,130,246,0.5)]">R.M.K.</span> Engineering College <span className="italic text-primary drop-shadow-[0_0_20px_rgba(59,130,246,0.7)]">Chapter</span>
+              </h2>
+            </div>
+            
+            <div className="relative">
+              {/* More decorative elements */}
+              <div className="absolute top-2 left-0 w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <div className="absolute bottom-4 right-8 w-3 h-3 bg-primary/60 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
+              
+              <p className="text-xl md:text-2xl font-poppins text-foreground max-w-3xl mx-auto leading-relaxed relative z-10">
+                Advancing the <span className="italic font-medium text-primary drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">frontiers</span> of biometric recognition technology through <span className="italic font-medium text-primary">research</span>, 
+                <span className="text-primary drop-shadow-[0_0_15px_rgba(59,130,246,0.5)] italic font-medium">innovation</span>, and academic <span className="italic font-medium text-primary">excellence</span>.
+              </p>
+            </div>
           </GlassCard>
         </div>
       </div>
