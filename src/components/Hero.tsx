@@ -16,7 +16,7 @@ export const Hero = () => {
           <GlassCard className="inline-block p-8 mb-8">
             <div className="mb-6 flex justify-center">
               <img 
-                src="/lovable-uploads/0ad4fe59-43f9-466c-8696-8a027094ca0e.png" 
+                src="/lovable-uploads/ce145c5c-dc7a-413f-ab3f-c166ac571ae8.png" 
                 alt="IEEE Biometrics Council Logo"
                 className="h-24 w-auto"
               />
