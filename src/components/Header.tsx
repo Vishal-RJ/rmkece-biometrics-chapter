@@ -12,6 +12,12 @@ export const Header = () => {
               alt="IEEE Biometrics Council Logo"
               className="h-12 w-auto"
             />
+            <div className="w-px h-8 bg-border"></div>
+            <img 
+              src="/lovable-uploads/5b87d07f-51ce-4d87-948d-ffb67dab8826.png" 
+              alt="RMK Engineering College Logo"
+              className="h-12 w-auto"
+            />
             <div className="flex flex-col">
               <p className="text-sm text-primary font-semibold">R.M.K. Engineering College Chapter</p>
             </div>
