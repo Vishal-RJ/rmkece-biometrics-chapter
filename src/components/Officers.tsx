@@ -1,30 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { GlassCard } from './ui/glass-card';
-import { removeBackground, loadImageFromUrl } from '../utils/backgroundRemoval';
 
 export const Officers = () => {
-  const [processedImageUrl, setProcessedImageUrl] = useState<string>('/lovable-uploads/5394b6cf-0efa-462c-b92f-cb11203176e0.png');
-  const [isProcessing, setIsProcessing] = useState(false);
-
-  useEffect(() => {
-    const processImage = async () => {
-      try {
-        setIsProcessing(true);
-        const img = await loadImageFromUrl('/lovable-uploads/5394b6cf-0efa-462c-b92f-cb11203176e0.png');
-        const processedBlob = await removeBackground(img);
-        const processedUrl = URL.createObjectURL(processedBlob);
-        setProcessedImageUrl(processedUrl);
-      } catch (error) {
-        console.error('Failed to process image:', error);
-        // Keep original image on error
-      } finally {
-        setIsProcessing(false);
-      }
-    };
-
-    processImage();
-  }, []);
-
   return (
     <section id="officers" className="py-20">
       <div className="container mx-auto px-4">
@@ -43,15 +20,10 @@ export const Officers = () => {
                   <div className="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-medium bg-gradient-primary p-2">
                     <div className="w-full h-full rounded-full overflow-hidden bg-background">
                       <img 
-                        src={processedImageUrl}
+                        src="/lovable-uploads/5394b6cf-0efa-462c-b92f-cb11203176e0.png"
                         alt="Kishore B - Chapter Chairperson"
-                        className={`w-full h-full object-cover ${isProcessing ? 'opacity-50' : ''}`}
+                        className="w-full h-full object-cover"
                       />
-                      {isProcessing && (
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
-                        </div>
-                      )}
                     </div>
                   </div>
                   <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center shadow-soft">
