@@ -3,14 +3,14 @@ import { GlassCard } from './ui/glass-card';
 import { removeBackground, loadImageFromUrl } from '../utils/backgroundRemoval';
 
 export const Officers = () => {
-  const [processedImageUrl, setProcessedImageUrl] = useState<string>('/lovable-uploads/8cbedd4d-fa4e-4fe1-b5bf-765c42d50741.png');
+  const [processedImageUrl, setProcessedImageUrl] = useState<string>('/lovable-uploads/5394b6cf-0efa-462c-b92f-cb11203176e0.png');
   const [isProcessing, setIsProcessing] = useState(false);
 
   useEffect(() => {
     const processImage = async () => {
       try {
         setIsProcessing(true);
-        const img = await loadImageFromUrl('/lovable-uploads/8cbedd4d-fa4e-4fe1-b5bf-765c42d50741.png');
+        const img = await loadImageFromUrl('/lovable-uploads/5394b6cf-0efa-462c-b92f-cb11203176e0.png');
         const processedBlob = await removeBackground(img);
         const processedUrl = URL.createObjectURL(processedBlob);
         setProcessedImageUrl(processedUrl);
